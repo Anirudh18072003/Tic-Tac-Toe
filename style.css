@@ -23,13 +23,17 @@ body {
 }
 
 .box {
-  height: 18vmin;
-  width: 18vmin;
-  border-radius: 1rem;
-  font-size: 8vmin;
-  color: white;
-  border: none;
-  background-color: #b497d6;
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #000;
+  cursor: pointer;
+  background-color: #fff;
 }
 #reset {
   color: #b497d6;

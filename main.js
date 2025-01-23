@@ -61,7 +61,7 @@ btn.addEventListener("click", () => {
   }
 });
 
-function newgame() {
+function newGame() {
   for (let box of boxes) {
     box.innerHTML = "";
     box.disabled = false;
@@ -69,3 +69,5 @@ function newgame() {
   btn.classList.remove("hide");
   msgContainer.classList.add("hide");
 }
+
+window.newGame = newGame;
